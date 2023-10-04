@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Set the tab link with the tab's URL and title
             tabLink.href = tab.url;
-            tabLink.textContent = tab.title;
+            tabLink.innerHTML = tab.title+"<br /><div class='linkit'>"+tab.url+"</div>";
             // Extract and add the URL to the urlsList
             var urlItem = document.createTextNode(tab.url+'\n');
             urlsList.appendChild(urlItem);

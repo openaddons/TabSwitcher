@@ -90,4 +90,13 @@ input[type="radio"]:checked ~ .tab-content {
   display: block;
 }
 
-/* Add your custom styles for the Tab List and Stats content as needed */
+.linkit {
+  font-size: smaller;
+  margin-left: 21px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80%;
+  display: inline-block;
+}
+
